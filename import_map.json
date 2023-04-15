@@ -1,6 +1,6 @@
 {
 	"imports": {
 		"$deno/": "https://deno.land/std@0.181.0/",
-		"denoWebServe": "https://deno.land/x/deno_web_serve@v1.0.7/mod.ts"
+		"denoWebServe": "https://deno.land/x/deno_web_serve@v1.1.0/mod.ts"
 	}
 }

@@ -1,3 +1,3 @@
 import { webServe } from 'denoWebServe';
 
-await webServe();
+await webServe('main.tsx');

@@ -2,5 +2,8 @@
 	"tasks": {
 		"start": "deno run -A dev.ts"
 	},
-	"importMap": "./import_map.json"
+	"imports": {
+		"deno/": "https://deno.land/std@0.192.0/",
+		"denoWebServe": "https://deno.land/x/deno_web_serve@v1.4.1/mod.ts"
+	}
 }
